@@ -168,6 +168,15 @@ header {
     border-color: var(--primary-color);
   }
 
+  #avatar {
+      width: 25%;
+      background-color: var(--tertiary-color);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 25px;
+      display: flex;
+      margin: 0 auto;
+  }
+
   .intro p {
     line-height: 1.7;
     color: var(--font-color);
