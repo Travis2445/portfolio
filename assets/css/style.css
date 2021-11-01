@@ -138,6 +138,10 @@ header {
       margin: 0 auto;
   }
 
+  #work-image-top a {
+    text-decoration: none;
+  }
+
   .image-text-container {
       text-align: center;
       padding: 10px 20px;
@@ -147,8 +151,16 @@ header {
       color: var(--font-color);
   }
 
-  .work-image a {
+  .work-flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .work-flex-container a {
     text-decoration: none;
+    flex: 35%;
+    margin: 10px;
   }
 
   img {
