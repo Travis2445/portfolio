@@ -26,7 +26,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('../images/hero-bg.avif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -126,7 +126,7 @@ header {
   }
 
   .hero {
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('../images/hero-bg.avif');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -171,7 +171,7 @@ header {
   #avatar {
       width: 25%;
       background-color: var(--tertiary-color);
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
       margin-bottom: 25px;
       display: flex;
       margin: 0 auto;
