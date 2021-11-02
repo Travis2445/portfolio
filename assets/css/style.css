@@ -169,7 +169,7 @@ header {
   }
 
   #avatar {
-      width: 25%;
+      width: 30%;
       background-color: var(--tertiary-color);
       /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
       margin-bottom: 25px;
@@ -306,6 +306,10 @@ header {
     font-size: 20px;
   }
 
+  #avatar {
+    width: 40%;
+  }
+
   footer h2,
   footer div {
     text-align: center;
@@ -336,6 +340,10 @@ header {
 @media screen and  (max-width: 575px) {
   .section-title {
     width: 95%;
+  }
+
+  #avatar {
+    width: 50%;
   }
 
   .intro p {
